@@ -1,5 +1,5 @@
 /build/
 /.coverage
 /dist/
-/content_validator.egg-info/
+/libero_content_validator.egg-info/
 *.pyc

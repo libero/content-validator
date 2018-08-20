@@ -3,7 +3,7 @@ import validator
 
 
 setup(
-    name='content-validator',
+    name='libero-content-validator',
     version=validator.__version__,
     description='Validate XML against the Libero content model',
     packages=find_packages(exclude=['tests']),
