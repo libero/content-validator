@@ -1,0 +1,5 @@
+/build/
+/.coverage
+/dist/
+/content_validator.egg-info/
+*.pyc
