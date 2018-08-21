@@ -6,13 +6,11 @@ CONTENT_SCHEMA = 'tests/fixtures/schemas/api/content/data/content.rng'
 FRONT_SCHEMA = 'tests/fixtures/schemas/api/content/data/parts/front.rng'
 
 
-@pytest.fixture
 def validate_root(schema_file, xml_file):
     "validate a full file against a schema"
     return validate_file(schema_file, xml_file)
 
 
-@pytest.fixture
 def validate_subelements(schema_file, xml_file, subelement=None):
     "validate subelements of an XML file against the schema"
     xml = parse_file(xml_file)
